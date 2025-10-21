@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-02: Stopwatch Web Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>⏱️ Stopwatch</h1>
+            <p>Precision timing at your fingertips</p>
+        </div>
+
+        <div class="display">
+            <div class="time" id="display">
+                00:00:00<span class="milliseconds">.000</span>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="btn btn-start" id="startBtn" onclick="start()">Start</button>
+            <button class="btn btn-pause" id="pauseBtn" onclick="pause()" disabled>Pause</button>
+            <button class="btn btn-lap" id="lapBtn" onclick="recordLap()" disabled>Lap</button>
+            <button class="btn btn-reset" id="resetBtn" onclick="reset()">Reset</button>
+        </div>
+
+        <div class="laps-section">
+            <div class="laps-header">
+                <h3>Lap Times</h3>
+                <button class="clear-laps" onclick="clearLaps()" id="clearBtn" style="display: none;">Clear All</button>
+            </div>
+            <div id="laps">
+                <div class="no-laps">No laps recorded yet</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
