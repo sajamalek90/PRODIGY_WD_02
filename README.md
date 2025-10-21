@@ -1,17 +1,18 @@
 ## 🎉 Task-02: Stopwatch Web Application ⏱️
 
 ### 📋 Project Overview:
+-- 
+
 Built a fully functional **Stopwatch Web Application** from scratch using HTML, CSS, and JavaScript. This project challenged me to implement precise timing mechanisms and create an intuitive user interface.
---
 
 ### ✨ Key Features Implemented:
+--
 ✅ **Start/Pause Functionality** - Smooth control over timing
 ✅ **Reset Capability** - Quick return to zero
 ✅ **Lap Time Recording** - Track multiple intervals with precision
 ✅ **Millisecond Accuracy** - Real-time updates every 10ms
 ✅ **Responsive Design** - Works seamlessly across all devices
 ✅ **Modern UI/UX** - Gradient backgrounds with glassmorphism effects
---
 
 ### 💡 Technical Skills Applied:
 - **HTML5** - Semantic structure and accessibility
